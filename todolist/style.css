@@ -1,0 +1,85 @@
+/* CSS remains the same */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: beige; /* Add beige background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-section input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.add-section button {
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.item-section {
+    margin-bottom: 20px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#taskList li:hover {
+    background-color: #f0f0f0;
+}
+
+.task-checkbox {
+    margin-left: 10px;
+}
+
+.status-icon {
+    font-size: 20px;
+    margin-left: 10px;
+    display: none;
+}
+
+.done {
+    color: green; /* Change color for Done tasks */
+}
+
+.partially-done {
+    color: blue; /* Change color for Partially Done tasks */
+}
+
+.not-done {
+    color: red; /* Change color for Not Done tasks */
+}

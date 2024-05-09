@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Goal Tracker</h1>
+        </div>
+        <div class="add-section">
+            <input type="text" id="taskInput" placeholder="Enter your goal">
+            <button onclick="addTask()">Add Goal</button>
+            <button onclick="deleteTasks()">Delete Selected</button>
+        </div>
+        <div class="item-section">
+            <ul id="taskList">
+                <!-- Goals will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
